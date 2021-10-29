@@ -1,0 +1,90 @@
+/*Google Fonts*/
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@200&family=Rampart+One&display=swap");
+
+body {
+  font-family: "Raleway", sans-serif;
+  background: rgb(255, 255, 255);
+  align-items: center;
+  justify-content: center;
+}
+
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+
+#dm-Btn {
+  font-size: 12px;
+  background-color: grey;
+  color: white;
+  margin: 20px;
+  border-radius: 20px;
+}
+
+.quiz-container {
+  border: 10px solid;
+  border-image-source: linear-gradient(
+    0deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgb(99, 15, 124) 27%,
+    rgb(209, 179, 235) 100%
+  );
+  border-image-slice: 1;
+
+  margin: auto;
+  width: 50%;
+  padding: 30px;
+}
+
+header {
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  font-family: "Rampart One", sans-serif;
+  font-size: 100px;
+  text-align: center;
+  margin-top: 1px;
+}
+
+h1:hover {
+  color: rgb(99, 15, 124);
+  transition-duration: 0.25s;
+}
+
+h2 {
+  font-size: 20px;
+  text-align: center;
+}
+
+#quiz {
+  font-size: 20px;
+  text-align: center;
+}
+
+button {
+  border-radius: 10px;
+  margin-top: 20px;
+  padding: 10px;
+  font-family: "Raleway", sans-serif;
+  background-color: grey;
+  color: white;
+}
+
+button:hover {
+  color: white;
+  background: linear-gradient(to bottom right, #50a3a2 0%, #53e3a6 100%);
+}
+
+.red {
+  color: red;
+}
+
+.orange {
+  color: orange;
+}
+
+.green {
+  color: green;
+}
